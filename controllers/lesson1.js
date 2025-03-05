@@ -6,7 +6,12 @@ const klaraRoute = (req, res) => {
     res.send("Dalin Briggs");
   };
 
+  const henryRoute = (req, res) => {
+    res.send("Henry Briggs");
+  };
+
 module.exports = {
     klaraRoute,
-    dalinRoute
+    dalinRoute,
+    henryRoute
   };
